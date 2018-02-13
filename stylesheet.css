@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular|Eczar|Neuton');
+
+
+
+body  {
+    background-color: lightcyan;
+    text-align: center;
+
+    
+}
+
+
+
+
+/* Navigation Bar */
+nav ul {
+    line-height: 400%;
+    list-style-type: none;
+    float: left;
+    margin: unset;
+    padding-left: unset;
+    width: 25%;
+    text-align: center;
+    font-family: 'Eczar', serif;
+    margin-right: 3%;
+  }
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+nav ul li {
+    background-color: lightsalmon;
+    
+}
+
+nav ul li:hover {
+    background-color: beige;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+nav a, nav a:visited {
+    color: black;
+}
+
+header H1{
+    text-align: center;
+    padding-left: 30%;
+    font-family: 'Alike Angular', serif;
+}
+
+footer{ 
+    margin-top: 80%;
+    text-align: center;
+}
+
+ /* Create three equal columns that floats next to each other */
+ section {
+    float: left;
+    width: 30%;
+    background-color: red;
+    margin-right: 3%;
+     display: inline-grid;
+     font-family: 'Neuton', serif;
+     
+    
+}
+
+/* Clear floats after the columns */
+.section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+aside {
+    margin-left: 29%;
+    background-color: fuchsia;
+    margin-bottom: 10%;
+    font-family: 'Neuton', serif;
+    margin-right: 30%;
+}
+
+iframe {
+    padding: 4%;
+    
+}
+
+section.location {
+    float: right;
+    text-align: center; 
+    margin-right: 4%;
+    
+    
+}
+
+section.hours {
+    margin-left: 4%;
+}
+
+
+section.welcome {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 100px;
+}
+
+
+
+
+footer {
+    background-color: #708075;
+    padding: none;
+    margin-top:  90%;
+    margin-bottom: -5%;
+    margin-left: -1%;
+    margin-right: -.78%;
+    padding-top: 4%;
+    padding-bottom: 2%
+    
+}
